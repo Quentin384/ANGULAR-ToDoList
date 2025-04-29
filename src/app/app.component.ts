@@ -4,11 +4,11 @@ import { ChildComponent } from './child/child.component';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [RouterOutlet, ChildComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'] // ← ici, corrigé
 })
 export class AppComponent {
-  title = 'MyToDoList';
+  title = 'MyToDoList Version Angular';
 }
-

@@ -1,1 +1,15 @@
-<p>{{message}}</p>
+<p>{{ message }}</p>
+
+<input [(ngModel)]="newTask" placeholder="Ajouter une tâche">
+
+<button (click)="addtask()">Ajouter</button>
+
+<ul>
+    @for (task of tasks; track $index) {
+        <li>
+            {{task}}
+            <button (click)="deleteTask($index)">❌</button>
+        </li>
+    }
+</ul>
+
