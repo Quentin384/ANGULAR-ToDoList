@@ -96,5 +96,5 @@ Slides simples (si requis)
 
 📅 Projet individuel – avril 2025
 
-![Capture](assets/image/Capture.png)
+![Capture](screen/Capture.png)
 
