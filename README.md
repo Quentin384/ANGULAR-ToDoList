@@ -1,59 +1,100 @@
-# ToDoList
+📝 Todo List - Angular & TypeScript
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.9.
+Ce projet est une refonte moderne de la ToDoList initialement développée en JavaScript natif. Il exploite le framework Angular avec TypeScript pour structurer une application plus robuste, modulaire et évolutive, tout en respectant les principes fondamentaux de la programmation orientée objet et de l’architecture web moderne.
 
-## Development server
+---
 
-To start a local development server, run:
+🎯 Objectif du projet
 
-```bash
-ng serve
-```
+Développer une application ToDoList fonctionnelle en Angular et TypeScript, sans persistance des données, dans une démarche de séparation claire des responsabilités (composants, services, modèles) et de respect des bonnes pratiques de développement frontend.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+🧠 Compétences visées
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Maîtrise des fondamentaux d’Angular (CLI, composants, services, data binding, etc.)
 
-```bash
-ng generate component component-name
-```
+Utilisation de TypeScript et des concepts de typage strict
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Structuration modulaire et logique d’une application web
 
-```bash
-ng generate --help
-```
+Interaction dynamique avec le DOM via Angular
 
-## Building
+Documentation technique claire et structurée
 
-To build the project run:
+Présentation des choix de conception de manière synthétique
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+⚙️ Contraintes techniques
 
-## Running unit tests
+Framework : Angular (version CLI recommandée : 19.x)
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Langage : TypeScript uniquement
 
-```bash
-ng test
-```
+Pas de base de données ni de backend (application non persistante)
 
-## Running end-to-end tests
+UI sobre en HTML/CSS (possiblement avec Angular Material ou du CSS custom)
 
-For end-to-end (e2e) testing, run:
+Architecture Angular classique : composants, services, modèles, routing (si nécessaire)
 
-```bash
-ng e2e
-```
+---
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+📅 Déroulement du projet
 
-## Additional Resources
+Durée : 1 demi-journées
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Méthode : Travail autonome encadré, avec échanges réguliers pour valider la progression
+
+Approche : réflexion → conception → implémentation, avec refactoring continu
+
+---
+
+📈 Évaluation
+
+Formative (en cours de projet) :
+
+Pertinence de la structure Angular (modularité, responsabilités)
+
+Clarté du code TypeScript (typages, méthodes, interactions)
+
+Capacité à expliquer les choix techniques et leur mise en œuvre
+
+Sommative (à la fin) :
+
+Application fonctionnelle, fluide et sans erreurs
+
+Qualité du code (lisibilité, clarté, respect des bonnes pratiques Angular)
+
+Présentation synthétique et structurée du projet (orale ou écrite)
+
+---
+
+📝 Livrables attendus
+
+Code source complet : projet Angular structuré (src/, app/, composants, services, etc.)
+
+Fichier README.md incluant :
+
+Description du projet
+
+Organisation du code (structure Angular, composants utilisés, services, etc.)
+
+Instructions pour lancer et tester l'application (npm install, ng serve, etc.)
+
+Support de présentation facultatif :
+
+Démo orale
+
+Slides simples (si requis)
+
+---
+
+📌 Auteurs
+
+👨‍💻 Réalisé par : Quentin – Étudiant développeur Fullstack Java / JS
+
+📅 Projet individuel – avril 2025
+
+![Capture](assets/image/Capture.png)
+
