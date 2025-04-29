@@ -2,6 +2,8 @@
 
 Ce projet est une refonte moderne de la ToDoList initialement développée en JavaScript natif. Il exploite le framework Angular avec TypeScript pour structurer une application plus robuste, modulaire et évolutive, tout en respectant les principes fondamentaux de la programmation orientée objet et de l’architecture web moderne.
 
+Pour essayer : https://quentin384.github.io/ANGULAR-ToDoList/
+
 ---
 
 🎯 Objectif du projet
